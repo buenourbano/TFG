@@ -1,0 +1,55 @@
+\section{Teorema de Jordan-Schönflies}
+
+En ésta segunda sección vamos a comentar algunas implicaciones topológicas del Teorema de Jordan-Schönflies, una generalización fuerte del Teorema de la curva de Jordan. Este resultado  se enunciará si demostración y que su tratamiento excede el ámbito de este trabajo. 
+Comenzaremos extendiendo el lema \ref{lema24}:
+
+\begin{lemma}
+	Sea $C$ una curva de Jordan y $P$ un arco   simple en $Int(C)$ tal que $P$ una $p,q \in C$ y no tiene otro punto en común con $C$. Sean $P_1$ y $P_2$ los dos arcos en $C$ que unen $p$ y $q$. Entonces $\mathbb{R}^2 \backslash (C \cup P)$ tiene exactamente tres regiones cuyas fronteras son $C$, $P\cup P_1$ y $P\cup P_2$, respectivamente.
+\end{lemma}
+
+	La generalización que se ha hecho en éste lema es que hemos pasado de poligonales simples cerradas a curvas de Jordan.
+	
+	\begin{definition}
+Si $S$ es un conjunto, entonces $\vert S \vert$ denotará su cardinal.
+\end{definition}
+El siguiente resultado, corolario inductivo de lema anterior, simplemente expresa que la característica de Euler de la esfera es $2$:
+\begin{lemma}
+	Si $\Gamma$ es un grafo plano biconexo conteniendo un ciclo $C$ (que de hecho es una curva de Jordan) tal que todas aristas de $\Gamma \backslash C$ son arcos simples en $\overline{Int(C)}$. Entonces $\mathbb{R}^2 \backslash \Gamma$ tiene exactamente $\vert E(\Gamma) \vert - \vert V(\Gamma) \vert + 2$ regiones (llamadas caras de $\Gamma$). Cada una de ellas con un ciclo de $\Gamma$ como frontera.
+\end{lemma}
+
+Un uso elaborado del anterior lema  permite demostrar el siguiente resultado, uno de los pilares fundamentales de la Topología plana.
+
+\begin{theorem}[\textbf{Teorema de Jordan-Schönflies}]
+	Sea $f$ un homeomorfismo de una curva de Jordan $C$ en otra curva curva de Jordan $C'$. Entonces $f$ puede ser extendido a un homeorfismo $F$ de todo el plano.
+\end{theorem}
+ 
+
+\begin{definition}
+	Sea $F$ un conjunto cerrado del plano, decimos que un punto $p \in F$ es curvo-accesible si, para cada punto $q$ que no esté en $F$, existe un arco simple de $q$ a $p$ que sólo tenga $p$ en común con F.
+\end{definition}
+
+Como trivialmente todo punto de $\mathbb{S}^1$ es curvo accesible, el Teorema de Jordan-Schönflies implica que que todo punto en una curva de Jordan es curvo-accesible. Como consecuencia, y usando el círculo de ideas alrededor del Teorema de la curva de Jordan, es posible demostrar el siguiente:
+
+\begin{theorem}
+	Sea $F$ un conjunto cerrado en el plano con, al menos, tres puntos curvo-accesibles, entonces $\mathbb{R}^2 / F$ tiene como máximo dos regiones.
+\end{theorem}
+
+\begin{definition}
+	Si $C$ y $C'$ son curvas de Jordan y $\Gamma$ y $\Gamma'$ son grafos biconexos que consisten en $C$ (respectivamente $C'$) y arcos   simples en $\overline{Int}(C)$ (respectivamente $\overline{Int}(C')$), entonces $\Gamma$ y $\Gamma'$ se dice que son plano-isomorfos si existe un isomorfismo de $\Gamma$ en $\Gamma'$ cumpliendo 
+\begin{enumerate}
+	\item Un ciclo en $\Gamma$ es la frontera de una cara de $\Gamma$     $\iff$ La imagen del ciclo por el isomorfismo es la frontera de una cara de $\Gamma'$.
+	\item La imagen por el isomorfismo del ciclo exterior de $\Gamma$ (véase $C$) es el ciclo exterior de $\Gamma'$ (véase $C'$).
+\end{enumerate}	
+\end{definition}
+El Teorema de Jordan-Schönflies admite la siguiente generalización:
+\begin{theorem}\label{teorema33}
+	Sean $\Gamma$ y $\Gamma'$ grafos planos biconexos tales que $g$ sea un homeomorfismo y un plano-isomorfismo de $\Gamma$ en $\Gamma'$. Entonces $g$ puede ser extendido a un homeomorfismo de todo el plano.
+\end{theorem}
+
+\begin{proof}
+	Esta demostración la haremos por inducción sobre el número de aristas de $\Gamma$.
+
+	Si $\Gamma$ es un ciclo, entonces el problema se reduce al Teorema de Jordan-Schönflies. De otro modo se sigue del lema \ref{lema27} que $\Gamma$ tiene un camino $P$ y un subgrafo biconexo $\Gamma_1$ que contiene al ciclo exterior de $\Gamma$, de tal modo que $\Gamma$ se obtiene a partir de $\Gamma_1$ añadiéndole $P$ en $\overline{Int}(C)$, donde $C$ es la frontera de una de las caras de $\Gamma_1$.
+
+	Ahora aplicamos la hipótesis de inducción a $\Gamma_1$ y después a los dos ciclos de $C \cup P$ conteniendo a $P$.
+\end{proof}
