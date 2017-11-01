@@ -1,4 +1,3 @@
-# Triangulación de superficies topológicas: Teorema de Radó #
 **Jesús Bueno Urbano - Grado en Matemáticas**
 <br><br>
 **Tutor: Francisco J. López Fernández - Departamento de Geometría y Topología**
