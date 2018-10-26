@@ -11,7 +11,7 @@ Este es un repositorio que contiene el Trabajo Fin de Grado **"Triangulación de
 * Francisco J. López Fernández (Departamento de Geometría y Topología, Universidad de Granada)
 
 **Composición del tribunal del Trabajo Fin de Grado**
-* **Presidenta:** AMnuel Barros Díaz (Departamento de Geoemtría y Topología, Universidad de Granada)
+* **Presidenta:** Manuel Barros Díaz (Departamento de Geoemtría y Topología, Universidad de Granada)
 * **Vocal:** Juan Carlos Cabello Piñar (Departamento de Análisis Matemático, Universidad de Granada)
 * **Secretario:** Pedro González Rodelas (Departamento de Matemática Aplicada, Universidad de Granada)
 <br></br>
