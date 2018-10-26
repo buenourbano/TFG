@@ -4,10 +4,10 @@ Este es un repositorio que contiene el Trabajo Fin de Grado **"Triangulación de
 * *memoir* contiene todo el trabajo en LaTeX de redacción amén de la versión final del PDF.
 * *slides* contiene el código en LaTeX y la versión final del PDF de la defensa realizada el 5 de julio de 2017.
 ## Información
-**Autor:**
+**Autor**
 * Jesús Bueno Urbano (Grado en Matemáticas, Universidad de Granada)
 
-**Director:**
+**Director**
 * Francisco J. López Fernández (Departamento de Geometría y Topología, Universidad de Granada)
 
 **Composición del tribunal del Trabajo Fin de Grado**
