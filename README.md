@@ -1,5 +1,9 @@
 # Trabajo Fin de Grado
-Este es un repositorio que contiene el Trabajo Fin de Grado **"Triangulación de Superficies Topológicas: Teorema de Radó"** llevado a cabo durante el curso 2016-17 y defendido el 5 de julio de 2017 por **Jesús Bueno Urbano**. Tutorizado por [Francisco J. López](http://www.ugr.es/~fjlopez) del Departamento de Geometría y Topología de la Universidad de Granada.
+En este trabajo trataremos desde una perspectiva meramente matemática y teórica los caminos que nos conducen a uno de los grandes resultados clásicos de la Topología: El teorema de Radó. El cual nos proporciona una información importantísima y que en los estudios del Grado en Matemáticas apenas se le da importancia a pesar de las consecuencias que se derivan de éste.
+<br><br>
+Así, comenzaremos sentando la base matemática en conceptos sobre teoría de grafos y técnicas topológicas simples para, a continuación hacer una demostración esquemática del teorema de la curva de Jordan y presentar, sin probar, su generalización: El teorema de Jordan-Schönflies.
+<br><br>
+Tras esto nos centraremos en el teorema que da nombre a este trabajo, su demostración y una breve pincelada sobre una de sus aplicaciones.
 ## Directorios
 * *memoir* contiene todo el trabajo en LaTeX de redacción amén de la versión final del PDF.
 * *slides* contiene el código en LaTeX y la versión final del PDF de la defensa realizada el 5 de julio de 2017.
