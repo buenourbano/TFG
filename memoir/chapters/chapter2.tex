@@ -6,9 +6,7 @@ Finalmente estamos en condiciones de abordar el resultado principal de este Trab
 Una superficie $S \neq \emptyset$ es un espacio topológico que cumple que $\forall x \in S \exists V \subseteq S$ abierto con $x \in V$ y un homeomorfismo $\Phi : V \rightarrow U$ con $U$ un abierto de $\mathbb{R}^2$.A cada par $(V,\Phi)$ lo llamaremos carta local o sistema de coordenadas de $S$.
 \end{definition}
 
-\begin{remark}
-Impondremos que $S$ sea Hausdorff y que cumpla el II Axioma de Numerabilidad.
-\end{remark}
+Nota: Impondremos que $S$ sea Hausdorff y que cumpla el II Axioma de Numerabilidad.
 
 Consideremos ahora una colección $X$ de polígonos convexos dos a dos, junto con sus respectivos interiores, en el plano euclídeo tal que todas sus aristas son de longitud uno. Definamos un espacio topológico $S$ identificando cada arista de un polígono de $X$  con una  arista de otro, o del mismo, polígono. Está claro que el espacio identificación $S$, con la topología cociente inducida por la proyección natural $\pi\colon X\to S$,  es compacto. Además $S$ contiene de forma natural como subespacio el grafo $G$ con  vértices   la proyección de las esquinas de los polígonos de $X$ y como aristas la proyección de los lados de los polígonos de $X$.
 
@@ -26,7 +24,7 @@ Si todos los polígonos son triángulos, entonces decimos que $G$ es una triangu
 En el caso que estemos ante una triangulación tendremos que asumir que tenemos al menos cuatro triángulos (de otra forma $S$ no sería una superficie).
 \end{definition}
 
-Para la demostración del teorema de Radó necesitaremos el siguiente resultado de Teoría de Grafos.
+Para la demostración del Teorema de Radó necesitaremos el siguiente resultado de Teoría de Grafos.
 Este lema se podría haber encuadrado perfectamente en la sección que trataba sobre teoría básica de grafos, pero debido a que no se hace uso de él hasta este momento se ha ubicado en este apartado.
 
 \begin{lemma}\label{lema27}
@@ -57,7 +55,7 @@ Este lema se podría haber encuadrado perfectamente en la sección que trataba s
 \centering
 \begin{minipage}[c]{\textwidth}
 \centering
-    \includegraphics[width=10.0cm]{pic1.jpg}
+    \includegraphics[width=10.0cm]{images/pic1.jpg}
 \end{minipage}
 \end{figure}
 
@@ -71,7 +69,7 @@ La clave será probar que existen cuadrados  $Q_{1}(p_{1}),...,Q_{1}(p_{n})$  co
 \centering
 \begin{minipage}[c]{\textwidth}
 \centering
-    \includegraphics[width=10.0cm]{pic2.jpg}
+    \includegraphics[width=10.0cm]{images/pic5.jpg}
 \end{minipage}
 \end{figure}
 
@@ -86,7 +84,7 @@ Fijemos ahora $Q_{3}(p_k)$ un cuadrado entre $Q_{1}(p_k)$ y $Q_{2}(p_k)$. Diremo
 \centering
 \begin{minipage}[c]{\textwidth}
 \centering
-    \includegraphics[width=10.0cm]{pic3.jpg}
+    \includegraphics[width=10.0cm]{images/pic3.jpg}
 \end{minipage}
 \end{figure}
 
@@ -100,7 +98,7 @@ Fijemos ahora $Q_{3}(p_k)$ un cuadrado entre $Q_{1}(p_k)$ y $Q_{2}(p_k)$. Diremo
 \centering
 \begin{minipage}[c]{\textwidth}
 \centering
-    \includegraphics[width=10.0cm]{pic4.jpg}
+    \includegraphics[width=10.0cm]{images/pic4.jpg}
 \end{minipage}
 \end{figure}
 	
@@ -116,5 +114,5 @@ Fijemos ahora $Q_{3}(p_k)$ un cuadrado entre $Q_{1}(p_k)$ y $Q_{2}(p_k)$. Diremo
 	$^{1}$ La existencia de $Q_{3}''$ se puede establecer del siguiente modo: Para cada punto $p \in Q_{3}'$ definimos $R(p)$ un cuadrado que tiene a $p$ como punto medio y que además no corta los segmentos malos, excepto los que son muy malos. Consideramos entonces un recubrimiento finito de $Q_{3}'$ por cuadrados. La unión de estos cuadrados es un grafo plano biconexo cuyo ciclo exterior juega el papel de $Q_{3}''$.
 
 
-\begin{remark} Como consecuencia directa del Teorema de Radó, toda superficie topológica compacta es homeomorfa a un polígono con lados identificados a pares. A partir de este hecho básico, y mediante métodos de cirugía topológica elemental, es posible demostrar que una superficie topológica compacta distinta de la esfera es homeomorfa a una suma conexa de toros o a una suma conexa de projectivos, siendo la unión de estas familias normalizadas de superficies exahustiva (esto es, no hay dos de ellas homeomorfas entre sí). Como corolario, toda superficie compacta se determina unívocamente por su característica de Euler y su carácter de orientabilidad; ver por ejemplo \cite{Massey}. Estos hechos forman parte del material abarcado por la asignatura Topología II del actual Grado en Matemáticas, por lo que no hemos considerado necesario redundar sobre ellos en este Trabajo Fin de Grado.
+\begin{remark} Como consecuencia directa del Teorema de Radó, toda superficie topológica compacta es homeomorfa a un polígono con lados identificados a pares. A partir de este hecho básico, y mediante métodos de cirugía topológica elemental, es posible demostrar que una superficie topológica compacta distinta de la esfera es homeomorfa a una suma conexa de toros o a una suma conexa de projectivos, siendo la unión de estas familias normalizadas de superficies exahustiva (esto es, no hay dos de ellas homeomorfas entre sí). Como corolario, toda superficie compacta se determina unívocamente por su característica de Euler y su carácter de orientabilidad; ver por ejemplo \cite{Massey77}. Estos hechos forman parte del material abarcado por la asignatura Topología II del actual Grado en Matemáticas, por lo que no hemos considerado necesario redundar sobre ellos en este Trabajo Fin de Grado.
 \end{remark}
